@@ -5,6 +5,7 @@ Motor abierto para traducción entre español colombiano y glosas de LSC, compar
 
 ## Estado actual
 - Estructura de paquete Python (`src/alas_core`) con pipeline texto → gloss basado en reglas iniciales y diccionario configurable (`lexicon.py`).
+  Incluye heurísticas de tópico que evitan mover determinantes ambiguos como «el» para mantener el orden natural en preguntas.
 - CLI (`src/alas_core/cli.py`) y pruebas unitarias que cubren el prototipo (`tests/test_pipeline.py`).
 - Documentación en `docs/` actualizada (roadmap, arquitectura, modelos).
 

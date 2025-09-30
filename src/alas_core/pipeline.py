@@ -77,11 +77,19 @@ def _map_tokens(tokens: Iterable[str]) -> tuple[List[str], List[str]]:
     return glosses, desconocidas
 
 
+def _is_topic_pronoun(token: str, normalized: str) -> bool:
+    if normalized not in PRONOUNS:
+        return False
+    if normalized == token and normalized == "el":
+        return False
+    return True
+
+
 def _apply_topic_comment(glosses: List[str], tokens: List[str]) -> List[str]:
     result = list(glosses)
     for idx, token in enumerate(tokens):
         normalized = _normalize(token).lower()
-        if normalized in PRONOUNS and idx < len(result):
+        if idx < len(result) and _is_topic_pronoun(token, normalized):
             if idx != 0:
                 pronoun_gloss = result.pop(idx)
                 result.insert(0, pronoun_gloss)
