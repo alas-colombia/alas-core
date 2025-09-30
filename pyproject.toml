@@ -1,0 +1,30 @@
+[project]
+name = "alas-core"
+version = "0.1.0-alpha"
+description = "Motor abierto para traducción entre español colombiano y LSC"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Equipo ALAS", email = "contacto@alas.org.co" }]
+requires-python = ">=3.11"
+dependencies = [
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff>=0.6",
+  "mypy>=1.11",
+  "pytest>=8.3",
+]
+
+[project.urls]
+homepage = "https://example.org/alas"
+repository = "https://example.org/alas-core"
+
+[tool.ruff]
+select = ["E", "F", "I"]
+line-length = 100
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
