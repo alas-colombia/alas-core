@@ -18,5 +18,30 @@
     "input": "¿Dónde está la escuela?",
     "expected_gloss": "DONDE ESTAR LA ESCUELA",
     "notes": "ubicacion"
+  },
+  {
+    "input": "Yo no necesito ayuda",
+    "expected_gloss": "YO NEG NECESITAR AYUDA",
+    "notes": "negacion"
+  },
+  {
+    "input": "Nosotros estamos en la oficina",
+    "expected_gloss": "NOSOTROS ESTAR EN LA OFICINA",
+    "notes": "ubicacion oficina"
+  },
+  {
+    "input": "Ellos quieren registrar documento",
+    "expected_gloss": "ELLOS QUERER REGISTRAR DOCUMENTO",
+    "notes": "tramite"
+  },
+  {
+    "input": "¿Cuándo será el trámite?",
+    "expected_gloss": "CUANDO SER EL TRAMITE",
+    "notes": "pregunta tramite"
+  },
+  {
+    "input": "Necesito médico ahora",
+    "expected_gloss": "NECESITAR DOCTOR AHORA",
+    "notes": "emergencia"
   }
 ]

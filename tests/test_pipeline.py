@@ -32,6 +32,8 @@ def test_translate_text_to_gloss_from_fixtures() -> None:
     for case in payloads:
         resultado = translate_text_to_gloss(case["input"])
         assert resultado["gloss"] == case["expected_gloss"], case["notes"]
+        assert resultado["confianza"] >= 0.2
+        assert resultado["gloss"].strip() != ""
 
 
 def test_fixture_file_present() -> None:
