@@ -8,7 +8,7 @@ ALAS Core es el motor abierto del proyecto **ALAS (Accesibilidad Lingüística A
 - Servir como núcleo reutilizable para aplicaciones web, móviles y servicios públicos.
 
 ## Características iniciales
-- Pipeline modular texto ↔ gloss con reglas lingüísticas y modelos ligeros.
+- Pipeline texto → gloss con reglas básicas y diccionario configurable.
 - Diccionario de glosas con metadatos para sincronizar videos/avatars.
 - API REST y CLI de referencia para integraciones con `alas-platform`.
 

@@ -1,8 +1,8 @@
 # Roadmap Técnico ALAS Core
 
 ## Etapa Alpha (0-3 meses)
-- Definir contrato de datos de entrada (tokenización, normalización).
-- Implementar prototipo texto → gloss con reglas y transformer DistilBERT fine-tuned.
+- Definir contrato de datos de entrada (tokenización, normalización). ✅ Implementado en el prototipo de reglas.
+- Implementar prototipo texto → gloss con reglas y transformer DistilBERT fine-tuned. ✅ Primera versión rule-based lista (septiembre 2025).
 - Diseñar API REST minimal (`/translate/text-to-gloss`).
 - Preparar set de pruebas unitarias con frases comunes.
 
