@@ -96,7 +96,6 @@ LEXICON: dict[str, str] = {
     "trabajo": "TRABAJAR",
     "trabajas": "TRABAJAR",
     "trabaja": "TRABAJAR",
-    "escuela": "ESCUELA",
     "colegio": "ESCUELA",
     "universidad": "UNIVERSIDAD",
     "doctor": "DOCTOR",
@@ -107,6 +106,10 @@ LEXICON: dict[str, str] = {
     "amiga": "AMIGO",
     "amigos": "AMIGO",
     "comunidad": "COMUNIDAD",
+    "urgente": "URGENTE",
+    "ayuda": "AYUDA",
+    "escuela": "ESCUELA",
+    "la": "LA",
 }
 
 PRONOUNS: set[str] = {

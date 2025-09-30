@@ -1,0 +1,22 @@
+[
+  {
+    "input": "Hola, ¿cómo estás tú?",
+    "expected_gloss": "TU HOLA COMO ESTAR",
+    "notes": "saludo"
+  },
+  {
+    "input": "Gracias por la ayuda",
+    "expected_gloss": "GRACIAS POR LA AYUDA",
+    "notes": "gratitud"
+  },
+  {
+    "input": "Necesito doctor urgente",
+    "expected_gloss": "NECESITAR DOCTOR URGENTE",
+    "notes": "salud"
+  },
+  {
+    "input": "¿Dónde está la escuela?",
+    "expected_gloss": "DONDE ESTAR LA ESCUELA",
+    "notes": "ubicacion"
+  }
+]
