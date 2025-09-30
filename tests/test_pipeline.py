@@ -39,10 +39,3 @@ def test_translate_text_to_gloss_from_fixtures() -> None:
 def test_fixture_file_present() -> None:
     fixture_path = Path(__file__).parent / "fixtures" / "text_to_gloss.json"
     assert fixture_path.exists()
-+
-+
-+def test_fixture_file_present() -> None:
-+    fixture_path = Path(__file__).parent / "fixtures" / "text_to_gloss.json"
-+    assert fixture_path.exists()
-*** End Patch
-PATCH
