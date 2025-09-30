@@ -12,6 +12,9 @@ ALAS Core es el motor abierto del proyecto **ALAS (Accesibilidad Lingüística A
 - Diccionario de glosas con metadatos para sincronizar videos/avatars.
 - API REST y CLI de referencia para integraciones con `alas-platform`.
 
+## Datos externos
+El diccionario oficial del INSOR requiere autorización. Consulta `docs/ingestion.md` y coordina con `alas-playbook` antes de incorporar información o recursos multimedia.
+
 ## Estado del proyecto
 > **Alpha** – En fase de diseño y prototipado. El roadmap se gestiona en `docs/roadmap.md` y en el repositorio `alas-playbook`.
 

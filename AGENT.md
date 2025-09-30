@@ -13,6 +13,7 @@ Motor abierto para traducción entre español colombiano y glosas de LSC, compar
 2. Diseñar métrica de evaluación rápida (ejemplos esperados en `tests/fixtures`) y ampliar test suite.
 3. Elaborar guía de modelos (`docs/models.md`) con hitos para incorporar modelos neuronales.
 4. Coordinar con `alas-data-gov` para acceso a corpus y alimentar iteraciones futuras.
+5. Seguir el proceso descrito en `docs/ingestion.md` para el diccionario INSOR (requiere autorización institucional).
 
 ## Referencias
 - `README.md`: visión general y guía de participación.
